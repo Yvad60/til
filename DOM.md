@@ -49,3 +49,16 @@ A method of the canvas element used to dynamically draw rectangles on the canvas
 `y`: the point for drawinf the rectangle on the y axis
 `width`: the width of the rectangle that will be drawn
 `height`: The height of the reactangle that will be drawn
+
+## 1st December 2022
+
+### `Window.getComputedStyle()`
+
+a method on the `window` object which is used to get all styles of an element after applying styles from diffent sources this means result styles after applying styles from inline styles, external styles or even Javascript
+
+`syntax:` `window.getComputedStyle(element)`
+
+```js
+let myText = document.querrySelector(".para"); // getting the element
+textColor = window.getComputedStyle(myText).color; // get the actual value of the text color of the element
+```
