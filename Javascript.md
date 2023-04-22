@@ -20,3 +20,12 @@ let evenIndexedNumbers = numbers.filter((_, index)=> index % 2 === 0) // we don'
 ```
 The `_` (underscore) is not a special character here it is just as any variable name we could use the underscore is used for convention.
 `Note That`: Using underscore in this way may results into unexpected behaviours when using packages like lodash it is better to avoid them and some common names like `foo`, `dummy`, `garbage`...
+
+
+## 06 March 2023
+
+### Updating an element in an array of objects using the spread (...) operator
+
+## 07 March 2023
+
+### Object Computed properties in ES6
